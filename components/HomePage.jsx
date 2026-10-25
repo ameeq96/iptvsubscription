@@ -34,7 +34,7 @@ export function SupportSection({ site, locale, text = {}, labels = {} }) {
   useEffect(() => { setOrigin(new URL(centralUrl('/contact', site.source)).origin); }, [site.source]);
   const { data } = useCatalog();
   const t = value => copy(value, text);
-  const heading = site.brand === 'trex' ? ['Questions?', "We're listening."] : site.brand === 'geo' ? ['Let’s find your', 'next connection.'] : site.brand === '5g' ? ['One question away', 'from your next step.'] : ['Need a hand choosing?'];
+  const heading = site.brand === 'iptvsubscription' ? ['Contact support'] : site.brand === 'trex' ? ['Questions?', "We're listening."] : site.brand === 'geo' ? ['Let’s find your', 'next connection.'] : site.brand === '5g' ? ['One question away', 'from your next step.'] : ['Need a hand choosing?'];
   return <section id="support" className="support-section container" aria-labelledby="support-heading"><div className="support-card">
     <div><p className="eyebrow">{t(brandCopy[site.brand].support)}</p><h2 id="support-heading">{heading.map(t).join(' ')}</h2><p>{t('Talk to Opplex IPTV about plans, devices or getting started.')}</p></div>
     <div className="support-actions"><button type="button" className="button button-primary" onClick={event => openContact('whatsapp', event.currentTarget)}>{labels.contact || t('Contact support')}<span aria-hidden="true">↗</span></button>

@@ -60,6 +60,8 @@ const truthfulLabels = {
   hi: ['व्यावसायिक पूछताछ', 'देखने की गाइड', 'डिवाइस गाइड'],
 };
 const sourceHosts = new Set(['support.google.com', 'support.apple.com', 'docs.videolan.me', 'www.videolan.org']);
+const comparisonGuides = ['blogs/choosing-an-iptv-subscription', 'blogs/iptv-device-and-player-costs'];
+const planComparison = (html, id) => html.match(new RegExp('<section\\b[^>]*\\bid="' + id + '"[^>]*>([\\s\\S]*?)<\\/section>'))?.[1] || '';
 
 function verifySchema(html, visible, before, slug) {
   const local = before.file;
@@ -157,6 +159,8 @@ for (const before of originals) {
   assert.equal(htmlTag.dir, before.dir ?? undefined, local + ' direction');
   assert.ok(SUPPORTED_LOCALES.includes(htmlTag.lang), local + ' supported HTML language');
   assert.equal(htmlTag.dir, ['ar', 'ur'].includes(htmlTag.lang) ? 'rtl' : 'ltr', local + ' language direction');
+  const supportHeading = text(visible.match(/<h2\b[^>]*id="support-heading"[^>]*>([\s\S]*?)<\/h2>/)?.[1] || '');
+  assert.equal(supportHeading, loadDictionary(before.lang).text['Contact support'] || 'Contact support', local + ' translated support heading');
   for (const tag of tags(after, 'meta').filter(tag => /^(?:robots|googlebot|bingbot)$/i.test(tag.name || ''))) {
     assert.doesNotMatch(tag.content || '', /\b(?:noindex|none)\b/i, local + ' public page remains indexable');
   }
@@ -206,6 +210,22 @@ for (const before of originals) {
     for (const button of disabled) {
       assert.ok(Object.hasOwn(button, 'disabled'), local + ' checkout waits for a fresh price');
       assert.equal(button['aria-describedby'], 'catalog-status', local + ' checkout status explanation');
+    }
+  }
+  if (!slug || slug === 'packages' || comparisonGuides.includes(slug)) {
+    const isGuide = comparisonGuides.includes(slug);
+    const id = isGuide ? 'guide-plan-comparison' : 'plan-comparison';
+    const comparison = planComparison(visible, id);
+    assert.ok(comparison, local + ' server-rendered plan comparison');
+    assert.equal(tags(comparison, isGuide ? 'h2' : 'h3').filter(tag => tag.id === id + '-heading').length, 1, local + ' contextual comparison heading');
+    const table = comparison.match(/<table\b[^>]*>([\s\S]*?)<\/table>/)?.[0];
+    assert.ok(table, local + ' comparison table');
+    assert.deepEqual([...new Set([...comparison.matchAll(/class="comparison-provider"[^>]*>([\s\S]*?)<\/span>/g)].map(([, label]) => text(label)))].sort(), ['Filex', 'Opplex'], local + ' comparison identifies genuine providers');
+    if (isGuide) {
+      const homepage = visibleHtml(await readFile(join(root, 'out', pathFor(before.lang) + 'index.html'), 'utf8'));
+      const reference = planComparison(homepage, 'plan-comparison').match(/<table\b[^>]*>([\s\S]*?)<\/table>/)?.[0];
+      assert.equal(table, reference, local + ' guide uses the current catalog prices and connection allowances');
+      assert.equal(tags(comparison, 'a').length, 0, local + ' comparison does not bypass verified checkout');
     }
   }
   if (['setup/index.html', 'faqs/index.html'].includes(featurePath)) {
