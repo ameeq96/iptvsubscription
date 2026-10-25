@@ -1,0 +1,489 @@
+{
+  "ui": {
+    "tooMany": "Too many attempts. Please wait a little before trying again.",
+    "conflict": "An earlier request may already be saved. Close this form and reopen it if you need to change or resend your details.",
+    "saveFailed": "We could not save your enquiry. Please retry or use the main contact page.",
+    "unconfirmed": "Your enquiry was not confirmed as saved. Please retry.",
+    "measurementOn": "Optional usage measurement is on for this website.",
+    "measurementOff": "Optional usage measurement is off for this website.",
+    "saveWhatsApp": "Save and open WhatsApp",
+    "saveChat": "Save and open live chat",
+    "consentWhatsApp": "I agree that Opplex IPTV may store these details and contact me on WhatsApp about this enquiry, not for marketing.",
+    "consentChat": "I agree that Opplex IPTV may store these details and handle my live-chat enquiry. This does not give permission for WhatsApp contact.",
+    "phoneInvalid": "Enter a phone number with 8–15 digits (0–9), including your country code.",
+    "required": "Please complete this field.",
+    "emailInvalid": "Enter a valid email address.",
+    "consentRequired": "Please confirm contact permission to continue.",
+    "fieldInvalid": "Please check this field.",
+    "saving": "Saving your enquiry…",
+    "saved": "Your enquiry is saved.",
+    "invalidField": "Please check the {field} field and try again.",
+    "field_name": "name",
+    "field_email": "email",
+    "field_phone": "phone",
+    "field_message": "message",
+    "field_contact_consent": "contact permission",
+    "saveTimeout": "Saving took too long. Please retry; the same request will not create a duplicate.",
+    "chatFailed": "Chat could not load. Tap the chat icon to retry, or use WhatsApp.",
+    "chatSlow": "Chat is taking longer to load. You can use WhatsApp for support.",
+    "chatLoading": "Chat is still loading. You can use WhatsApp for support.",
+    "chatOpening": "Opening live chat…",
+    "terms": "Terms of service",
+    "privacy": "Privacy policy",
+    "refund": "Refund policy",
+    "compare": "Compare the full term",
+    "equivalentNote": "Monthly equivalent = plan total ÷ months. This is a comparison only, not monthly billing. Check the final amount and any fees at checkout.",
+    "comparisonRegion": "Plan comparison; scroll horizontally if needed",
+    "comparisonCaption": "{provider} · current available plans",
+    "term": "Term",
+    "total": "Plan total",
+    "equivalent": "Monthly equivalent",
+    "connections": "Connections",
+    "confirmSupport": "Confirm with support",
+    "fullPlan": "For the full {duration} plan",
+    "finalFees": "Review the final amount and any fees at checkout",
+    "connectionCount": "Simultaneous connections: {count}",
+    "confirmConnections": "Confirm the connection allowance with support",
+    "checkout": "Continue to checkout",
+    "checkoutLabel": "Continue to checkout: {provider}, {duration}, {price}",
+    "catalogUnavailable": "Catalog unavailable",
+    "availability": "Check availability with support",
+    "deviceCheck": "Check your exact device and player with support before purchasing. A listed device is not a compatibility guarantee.",
+    "deviceContact": "Contact support to check your device.",
+    "deviceError": "Device information is temporarily unavailable. Contact support for help.",
+    "loadingPlans": "Loading current plans",
+    "loadingBrand": "Loading current brand plans from Opplex IPTV…",
+    "connecting": "Connecting to catalog",
+    "loadingDevices": "Loading device information…",
+    "missingBrand": "This page has no configured brand. Please contact support.",
+    "noPlans": "No available plans for this brand right now. Please retry or contact support.",
+    "currentBrand": "Current brand",
+    "plansAvailable": "{provider} · available plans: {count}",
+    "connected": "Catalog connected",
+    "priceNote": "Current catalog prices. Review the final total and any fees at checkout.",
+    "currentPlan": "{duration} · current plan",
+    "pricesError": "We could not load current prices. Please retry or contact support."
+  },
+  "metadata": {
+    "en": {
+      "title": "IPTV Subscription Plans | Compare Opplex & Filex",
+      "description": "Compare Opplex and Filex IPTV subscription plans, check duration and device needs, and review your total at Opplexify before you pay.",
+      "ogTitle": "IPTV Subscription Plans | Compare Opplex & Filex",
+      "ogDescription": "Compare Opplex and Filex IPTV subscription plans, check duration and device needs, and review your total at Opplexify before you pay.",
+      "twitterTitle": "IPTV Subscription Plans | Compare Opplex & Filex",
+      "twitterDescription": "Compare Opplex and Filex IPTV subscription plans, check duration and device needs, and review your total at Opplexify before you pay.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/#webpage",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription Plans | Compare Opplex & Filex",
+            "description": "Compare Opplex and Filex IPTV subscription plans, check duration and device needs, and review your total at Opplexify before you pay.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "en"
+          }
+        ]
+      }
+    },
+    "es": {
+      "title": "IPTV Subscription | Compara planes Opplex y Filex",
+      "description": "Compara suscripciones IPTV de Opplex y Filex. Revisa la duración, los requisitos del dispositivo y el total en Opplexify antes de pagar.",
+      "ogTitle": "IPTV Subscription | Compara planes Opplex y Filex",
+      "ogDescription": "Compara suscripciones IPTV de Opplex y Filex. Revisa la duración, los requisitos del dispositivo y el total en Opplexify antes de pagar.",
+      "twitterTitle": "IPTV Subscription | Compara planes Opplex y Filex",
+      "twitterDescription": "Compara suscripciones IPTV de Opplex y Filex. Revisa la duración, los requisitos del dispositivo y el total en Opplexify antes de pagar.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/es/#webpage",
+            "url": "https://iptvsubscription.shop/es/",
+            "name": "IPTV Subscription | Compara planes Opplex y Filex",
+            "description": "Compara suscripciones IPTV de Opplex y Filex. Revisa la duración, los requisitos del dispositivo y el total en Opplexify antes de pagar.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "es"
+          }
+        ]
+      }
+    },
+    "fr": {
+      "title": "IPTV Subscription | Offres Opplex et Filex",
+      "description": "Comparez les abonnements IPTV Opplex et Filex. Vérifiez la durée, les besoins de votre appareil et le total sur Opplexify avant de payer.",
+      "ogTitle": "IPTV Subscription | Offres Opplex et Filex",
+      "ogDescription": "Comparez les abonnements IPTV Opplex et Filex. Vérifiez la durée, les besoins de votre appareil et le total sur Opplexify avant de payer.",
+      "twitterTitle": "IPTV Subscription | Offres Opplex et Filex",
+      "twitterDescription": "Comparez les abonnements IPTV Opplex et Filex. Vérifiez la durée, les besoins de votre appareil et le total sur Opplexify avant de payer.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/fr/#webpage",
+            "url": "https://iptvsubscription.shop/fr/",
+            "name": "IPTV Subscription | Offres Opplex et Filex",
+            "description": "Comparez les abonnements IPTV Opplex et Filex. Vérifiez la durée, les besoins de votre appareil et le total sur Opplexify avant de payer.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "fr"
+          }
+        ]
+      }
+    },
+    "it": {
+      "title": "IPTV Subscription | Abbonamenti Opplex e Filex",
+      "description": "Confronta gli abbonamenti IPTV Opplex e Filex. Controlla durata, requisiti del dispositivo e totale su Opplexify prima di pagare.",
+      "ogTitle": "IPTV Subscription | Abbonamenti Opplex e Filex",
+      "ogDescription": "Confronta gli abbonamenti IPTV Opplex e Filex. Controlla durata, requisiti del dispositivo e totale su Opplexify prima di pagare.",
+      "twitterTitle": "IPTV Subscription | Abbonamenti Opplex e Filex",
+      "twitterDescription": "Confronta gli abbonamenti IPTV Opplex e Filex. Controlla durata, requisiti del dispositivo e totale su Opplexify prima di pagare.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/it/#webpage",
+            "url": "https://iptvsubscription.shop/it/",
+            "name": "IPTV Subscription | Abbonamenti Opplex e Filex",
+            "description": "Confronta gli abbonamenti IPTV Opplex e Filex. Controlla durata, requisiti del dispositivo e totale su Opplexify prima di pagare.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "it"
+          }
+        ]
+      }
+    },
+    "nl": {
+      "title": "IPTV Subscription | Vergelijk Opplex en Filex",
+      "description": "Vergelijk IPTV-abonnementen van Opplex en Filex. Controleer de looptijd, je apparaat en het totaalbedrag bij Opplexify voordat je betaalt.",
+      "ogTitle": "IPTV Subscription | Vergelijk Opplex en Filex",
+      "ogDescription": "Vergelijk IPTV-abonnementen van Opplex en Filex. Controleer de looptijd, je apparaat en het totaalbedrag bij Opplexify voordat je betaalt.",
+      "twitterTitle": "IPTV Subscription | Vergelijk Opplex en Filex",
+      "twitterDescription": "Vergelijk IPTV-abonnementen van Opplex en Filex. Controleer de looptijd, je apparaat en het totaalbedrag bij Opplexify voordat je betaalt.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/nl/#webpage",
+            "url": "https://iptvsubscription.shop/nl/",
+            "name": "IPTV Subscription | Vergelijk Opplex en Filex",
+            "description": "Vergelijk IPTV-abonnementen van Opplex en Filex. Controleer de looptijd, je apparaat en het totaalbedrag bij Opplexify voordat je betaalt.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "nl"
+          }
+        ]
+      }
+    },
+    "pt": {
+      "title": "IPTV Subscription | Planos Opplex e Filex",
+      "description": "Compare os planos IPTV Opplex e Filex. Confirme a duração, os requisitos do dispositivo e o total na Opplexify antes de pagar.",
+      "ogTitle": "IPTV Subscription | Planos Opplex e Filex",
+      "ogDescription": "Compare os planos IPTV Opplex e Filex. Confirme a duração, os requisitos do dispositivo e o total na Opplexify antes de pagar.",
+      "twitterTitle": "IPTV Subscription | Planos Opplex e Filex",
+      "twitterDescription": "Compare os planos IPTV Opplex e Filex. Confirme a duração, os requisitos do dispositivo e o total na Opplexify antes de pagar.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/pt/#webpage",
+            "url": "https://iptvsubscription.shop/pt/",
+            "name": "IPTV Subscription | Planos Opplex e Filex",
+            "description": "Compare os planos IPTV Opplex e Filex. Confirme a duração, os requisitos do dispositivo e o total na Opplexify antes de pagar.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "pt"
+          }
+        ]
+      }
+    },
+    "ru": {
+      "title": "IPTV Subscription | Тарифы Opplex и Filex",
+      "description": "Сравните IPTV-подписки Opplex и Filex. Проверьте срок, требования к устройству и итоговую сумму в Opplexify перед оплатой.",
+      "ogTitle": "IPTV Subscription | Тарифы Opplex и Filex",
+      "ogDescription": "Сравните IPTV-подписки Opplex и Filex. Проверьте срок, требования к устройству и итоговую сумму в Opplexify перед оплатой.",
+      "twitterTitle": "IPTV Subscription | Тарифы Opplex и Filex",
+      "twitterDescription": "Сравните IPTV-подписки Opplex и Filex. Проверьте срок, требования к устройству и итоговую сумму в Opplexify перед оплатой.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/ru/#webpage",
+            "url": "https://iptvsubscription.shop/ru/",
+            "name": "IPTV Subscription | Тарифы Opplex и Filex",
+            "description": "Сравните IPTV-подписки Opplex и Filex. Проверьте срок, требования к устройству и итоговую сумму в Opplexify перед оплатой.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "ru"
+          }
+        ]
+      }
+    },
+    "ur": {
+      "title": "IPTV Subscription | Opplex اور Filex کے پیکیجز",
+      "description": "Opplex اور Filex کی IPTV سبسکرپشنز کا موازنہ کریں۔ ادائیگی سے پہلے مدت، ڈیوائس کی ضروریات اور Opplexify پر کل رقم دیکھیں۔",
+      "ogTitle": "IPTV Subscription | Opplex اور Filex کے پیکیجز",
+      "ogDescription": "Opplex اور Filex کی IPTV سبسکرپشنز کا موازنہ کریں۔ ادائیگی سے پہلے مدت، ڈیوائس کی ضروریات اور Opplexify پر کل رقم دیکھیں۔",
+      "twitterTitle": "IPTV Subscription | Opplex اور Filex کے پیکیجز",
+      "twitterDescription": "Opplex اور Filex کی IPTV سبسکرپشنز کا موازنہ کریں۔ ادائیگی سے پہلے مدت، ڈیوائس کی ضروریات اور Opplexify پر کل رقم دیکھیں۔",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/ur/#webpage",
+            "url": "https://iptvsubscription.shop/ur/",
+            "name": "IPTV Subscription | Opplex اور Filex کے پیکیجز",
+            "description": "Opplex اور Filex کی IPTV سبسکرپشنز کا موازنہ کریں۔ ادائیگی سے پہلے مدت، ڈیوائس کی ضروریات اور Opplexify پر کل رقم دیکھیں۔",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "ur"
+          }
+        ]
+      }
+    },
+    "ar": {
+      "title": "IPTV Subscription | باقات Opplex وFilex",
+      "description": "قارن اشتراكات IPTV من Opplex وFilex، وتحقق من المدة ومتطلبات جهازك والمبلغ الإجمالي على Opplexify قبل الدفع.",
+      "ogTitle": "IPTV Subscription | باقات Opplex وFilex",
+      "ogDescription": "قارن اشتراكات IPTV من Opplex وFilex، وتحقق من المدة ومتطلبات جهازك والمبلغ الإجمالي على Opplexify قبل الدفع.",
+      "twitterTitle": "IPTV Subscription | باقات Opplex وFilex",
+      "twitterDescription": "قارن اشتراكات IPTV من Opplex وFilex، وتحقق من المدة ومتطلبات جهازك والمبلغ الإجمالي على Opplexify قبل الدفع.",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/ar/#webpage",
+            "url": "https://iptvsubscription.shop/ar/",
+            "name": "IPTV Subscription | باقات Opplex وFilex",
+            "description": "قارن اشتراكات IPTV من Opplex وFilex، وتحقق من المدة ومتطلبات جهازك والمبلغ الإجمالي على Opplexify قبل الدفع.",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "ar"
+          }
+        ]
+      }
+    },
+    "hi": {
+      "title": "IPTV Subscription | Opplex और Filex प्लान",
+      "description": "Opplex और Filex की IPTV सदस्यताओं की तुलना करें। भुगतान से पहले अवधि, डिवाइस की ज़रूरतें और Opplexify पर कुल रकम जाँचें।",
+      "ogTitle": "IPTV Subscription | Opplex और Filex प्लान",
+      "ogDescription": "Opplex और Filex की IPTV सदस्यताओं की तुलना करें। भुगतान से पहले अवधि, डिवाइस की ज़रूरतें और Opplexify पर कुल रकम जाँचें।",
+      "twitterTitle": "IPTV Subscription | Opplex और Filex प्लान",
+      "twitterDescription": "Opplex और Filex की IPTV सदस्यताओं की तुलना करें। भुगतान से पहले अवधि, डिवाइस की ज़रूरतें और Opplexify पर कुल रकम जाँचें।",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://iptvsubscription.shop/#website",
+            "url": "https://iptvsubscription.shop/",
+            "name": "IPTV Subscription",
+            "inLanguage": [
+              "en",
+              "es",
+              "fr",
+              "it",
+              "nl",
+              "pt",
+              "ru",
+              "ur",
+              "ar",
+              "hi"
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://iptvsubscription.shop/hi/#webpage",
+            "url": "https://iptvsubscription.shop/hi/",
+            "name": "IPTV Subscription | Opplex और Filex प्लान",
+            "description": "Opplex और Filex की IPTV सदस्यताओं की तुलना करें। भुगतान से पहले अवधि, डिवाइस की ज़रूरतें और Opplexify पर कुल रकम जाँचें।",
+            "isPartOf": {
+              "@id": "https://iptvsubscription.shop/#website"
+            },
+            "inLanguage": "hi"
+          }
+        ]
+      }
+    }
+  }
+}
