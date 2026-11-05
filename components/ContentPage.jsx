@@ -25,6 +25,7 @@ export default function ContentPage({ site, locale, page, pages = [], labels = {
   const comparisonGuide = ['blogs/choosing-an-iptv-subscription', 'blogs/iptv-device-and-player-costs'].includes(page.slug);
   const [playlistGuide, playbackGuide, supportGuide] = articles;
   const relatedSlugs = page.kind === 'article' ? ['iptv-applications', ...articles.map(item => item.slug)] : {
+    packages: articles.map(article => article.slug),
     setup: ['iptv-applications', playbackGuide?.slug, supportGuide?.slug],
     'iptv-applications': [playbackGuide?.slug, playlistGuide?.slug, 'faqs'],
     faqs: ['iptv-applications', playbackGuide?.slug, supportGuide?.slug],
